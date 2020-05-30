@@ -38,6 +38,7 @@ var (
 var flags = flag.NewFlagSet(os.Args[0], flag.ContinueOnError)
 
 // Initialize flags.
+// init函数： 初始化参数
 func init() {
 	flags.BoolVar(&printVersion, "v", false, "print version.")
 	flags.StringVar(&inputFile, "L", "", `source file names are read from the specified file. If file is "-", input is read from standard in.`)
@@ -57,6 +58,7 @@ func init() {
 	}
 }
 
+// walkDir函数：
 func walkDir(names []string, dir string) ([]string, error) {
 	e := filepath.Walk(dir, func(path string, finfo os.FileInfo, err error) error {
 		if err != nil {
