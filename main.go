@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/csv"
 	"flag"
 	"fmt"
 	"io"
@@ -210,12 +211,14 @@ func main() {
 	}
 
 	// 输出部分
+	tripleData := [][]string{}
 	output := createMetaTags()
 	for _, tag := range tags {
 		if fieldSet.Includes(Language) {
 			tag.Fields[Language] = "Go"
 		}
 		output = append(output, tag.String())
+		tripleData = append(tripleData, tag.Triple()...)
 	}
 
 	if sortOutput {
@@ -239,6 +242,29 @@ func main() {
 
 	for _, s := range output {
 		fmt.Fprintln(out, s)
+	}
+
+	// 三元组输出
+	csvWriter("./triple.csv", tripleData)
+
+}
+
+func csvWriter(filename string, csvData [][]string) {
+	recordFile, err := os.Create(filename)
+	if err != nil {
+		fmt.Println("Create file encounter an error ::", err)
+		os.Exit(1)
+	}
+	defer recordFile.Close()
+
+	// 2. Initialize the writer
+	writer := csv.NewWriter(recordFile)
+
+	// 3. Write all the records
+	err = writer.WriteAll(csvData)
+	if err != nil {
+		fmt.Println("Write csv encounter an error ::", err)
+		os.Exit(1)
 	}
 }
 

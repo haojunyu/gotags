@@ -90,3 +90,80 @@ func (t Tag) String() string {
 
 	return b.String()
 }
+
+// String接口： 结构化输出tag实例
+func (t Tag) Triple() [][]string {
+	tagTypeHash := map[TagType]string{
+		Package:     "包",
+		Import:      "包",
+		Constant:    "常量",
+		Variable:    "变量",
+		Type:        "类型",
+		Interface:   "接口",
+		Field:       "字段",
+		Embedded:    "unknown",
+		Method:      "方法",
+		Constructor: "构造函数",
+		Function:    "函数",
+	}
+	tagRelaHash := map[TagType]string{
+		Package:     "包含",
+		Import:      "依赖",
+		Constant:    "常量定义",
+		Variable:    "变量定义",
+		Type:        "类型定义",
+		Interface:   "接口定义",
+		Field:       "字段定义",
+		Embedded:    "unknown定义",
+		Method:      "方法定义",
+		Constructor: "构造函数定义",
+		Function:    "函数定义",
+	}
+
+	var triple [][]string
+	one := []string{"v", "文件名", t.File, t.File}
+	triple = append(triple, one)
+	two := []string{"v", tagTypeHash[t.Type], t.Name, t.Name}
+	triple = append(triple, two)
+	three := []string{"e", tagRelaHash[t.Type], t.File, t.Name, "位置", t.Address}
+	if t.Type == Package {
+		three = []string{"e", tagRelaHash[t.Type], t.Name, t.File, "位置", t.Address}
+	}
+
+	for k, v := range t.Fields {
+		if len(v) == 0 {
+			continue
+		}
+		three = append(three, string(k))
+		three = append(three, v)
+	}
+	triple = append(triple, three)
+	return triple
+	/*
+		var b bytes.Buffer
+
+		b.WriteString(t.Name)
+		b.WriteByte('\t')
+		b.WriteString(t.File)
+		b.WriteByte('\t')
+		b.WriteString(t.Address)
+		b.WriteString("\t")
+		b.WriteString(string(t.Type))
+		b.WriteByte('\t')
+
+		fields := make([]string, 0, len(t.Fields))
+		i := 0
+		for k, v := range t.Fields {
+			if len(v) == 0 {
+				continue
+			}
+			fields = append(fields, fmt.Sprintf("%s:%s", k, v))
+			i++
+		}
+
+		sort.Sort(sort.StringSlice(fields))
+		b.WriteString(strings.Join(fields, "\t"))
+
+		return b.String()
+	*/
+}
