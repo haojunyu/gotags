@@ -34,7 +34,7 @@ var (
 	extraSymbols string
 )
 
-// ignore unknown flags
+// ContinueOnError 忽视解析错误
 var flags = flag.NewFlagSet(os.Args[0], flag.ContinueOnError)
 
 // Initialize flags.
@@ -58,7 +58,7 @@ func init() {
 	}
 }
 
-// walkDir函数：
+// walkDir函数：遍历所有*.go文件
 func walkDir(names []string, dir string) ([]string, error) {
 	e := filepath.Walk(dir, func(path string, finfo os.FileInfo, err error) error {
 		if err != nil {
@@ -73,6 +73,7 @@ func walkDir(names []string, dir string) ([]string, error) {
 	return names, e
 }
 
+// recurseNames函数： 对指定的多个目录或文件进行确认
 func recurseNames(names []string) ([]string, error) {
 	var ret []string
 	for _, name := range names {
@@ -89,7 +90,9 @@ func recurseNames(names []string) ([]string, error) {
 	return ret, nil
 }
 
+// readNames函数：文件内容读入
 func readNames(names []string) ([]string, error) {
+	// 没有输入文件
 	if len(inputFile) == 0 {
 		return names, nil
 	}
@@ -117,6 +120,7 @@ func readNames(names []string) ([]string, error) {
 	return names, nil
 }
 
+// getFileNames函数：根据recurse来确定是否使用递归遍历符合要求的go文件
 func getFileNames() ([]string, error) {
 	var names []string
 
@@ -136,6 +140,7 @@ func getFileNames() ([]string, error) {
 	return names, nil
 }
 
+// 主函数
 func main() {
 	if err := flags.Parse(os.Args[1:]); err == flag.ErrHelp {
 		return
@@ -175,6 +180,7 @@ func main() {
 		}
 	}
 
+	// 解析fields，支持的语言，对应全局变量fields
 	fieldSet, err := parseFields(fields)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%s\n\n", err)
@@ -182,6 +188,7 @@ func main() {
 		os.Exit(1)
 	}
 
+	// 解析额外的Symbols，对应全局变量 extraSymbols
 	symbolSet, err := parseExtraSymbols(extraSymbols)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%s\n\n", err)
@@ -189,6 +196,7 @@ func main() {
 		os.Exit(1)
 	}
 
+	// 解析Tags
 	tags := []Tag{}
 	for _, file := range files {
 		ts, err := Parse(file, relative, basedir, symbolSet)
@@ -233,7 +241,7 @@ func main() {
 	}
 }
 
-// createMetaTags returns a list of meta tags.
+// createMetaTags函数： 生成源数据
 func createMetaTags() []string {
 	var sorted int
 	if sortOutput {
