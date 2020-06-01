@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// Tag represents a single tag.
+// Tag结构体： 表示一个tag
 type Tag struct {
 	Name    string
 	File    string
@@ -17,7 +17,7 @@ type Tag struct {
 	Fields  map[TagField]string
 }
 
-// TagField represents a single field in a tag line.
+// TagField类型： 表示tag的字段类型
 type TagField string
 
 // Tag fields.
@@ -32,7 +32,7 @@ const (
 	ExtraTags     TagField = "extraTag"
 )
 
-// TagType represents the type of a tag in a tag line.
+// TagType类： 表示tag的类型
 type TagType string
 
 // Tag types.
@@ -50,7 +50,7 @@ const (
 	Function    TagType = "f"
 )
 
-// NewTag creates a new Tag.
+// NewTag函数： 创建一个新tag
 func NewTag(name, file string, line int, tagType TagType) Tag {
 	l := strconv.Itoa(line)
 	return Tag{
@@ -62,7 +62,7 @@ func NewTag(name, file string, line int, tagType TagType) Tag {
 	}
 }
 
-// The tags file format string representation of this tag.
+// String接口： 结构化输出tag实例
 func (t Tag) String() string {
 	var b bytes.Buffer
 
