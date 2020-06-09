@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"encoding/csv"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"io"
@@ -212,6 +213,8 @@ func main() {
 
 	// 输出部分
 	tripleData := [][]string{}
+	graphData := Graph{}
+	nodeSet := make(map[string]bool)
 	output := createMetaTags()
 	for _, tag := range tags {
 		if fieldSet.Includes(Language) {
@@ -219,6 +222,17 @@ func main() {
 		}
 		output = append(output, tag.String())
 		tripleData = append(tripleData, tag.Triple()...)
+
+		nodes, link := tag.Graph()
+		for _, node := range nodes {
+			key := node.Class + node.Id
+			//fmt.Printf(key)
+			if _, ok := nodeSet[key]; !ok {
+				graphData.Nodes = append(graphData.Nodes, node)
+				nodeSet[key] = true
+			}
+		}
+		graphData.Links = append(graphData.Links, link)
 	}
 
 	if sortOutput {
@@ -246,6 +260,8 @@ func main() {
 
 	// 三元组输出
 	csvWriter("./triple.csv", tripleData)
+	// 图数据输出
+	graphWriter("./graph.json", graphData)
 
 }
 
@@ -265,6 +281,27 @@ func csvWriter(filename string, csvData [][]string) {
 	if err != nil {
 		fmt.Println("Write csv encounter an error ::", err)
 		os.Exit(1)
+	}
+}
+
+func graphWriter(filename string, graphData Graph) {
+	// 创建文件
+	filePtr, err := os.Create(filename)
+	if err != nil {
+		fmt.Println("Create file failed", err.Error())
+		return
+	}
+	defer filePtr.Close()
+
+	// 创建Json编码器
+	encoder := json.NewEncoder(filePtr)
+
+	err = encoder.Encode(graphData)
+	if err != nil {
+		fmt.Println("Encoder failed", err.Error())
+
+	} else {
+		fmt.Println("Encoder success")
 	}
 }
 
