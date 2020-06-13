@@ -4,7 +4,7 @@
     <meta charset='utf8' />
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Star Wars</title>
+    <title>gotags源码图谱</title>
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -109,7 +109,7 @@ body {
 
 #info {
     position: absolute;
-    bottom: 40px;
+    bottom: -90px;
     right: 30px;
     text-align: right;
     width: 270px;
@@ -144,11 +144,48 @@ body {
     background-color: #666;
 }
 
+#info #code{
+    height: 370px
+}
 
+#code #leftBox{
+    background:#ecf0f5;
+    width:14%; 
+    height:100%; 
+    text-align:left; 
+    float: left;
+}
+
+#code #leftNum{ 
+    height:100%; 
+    width: 100%; 
+    resize: none;
+    outline:none; 
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    border: 0; 
+    background: rgb(247,247,247); 
+    color: #999;
+    text-align: right; 
+    font-weight: bold; 
+    box-sizing: border-box;}
+
+#code #codetext{
+    border:1px solid #eaeaea; 
+    outline:none; 
+    width: 86%;
+    height:100%; 
+    resize: none; 
+    background: rgb(250,250,250); 
+    float: left; 
+    color: black; 
+    font-family: inherit; 
+    box-sizing: border-box;
+}
 </style>
 
 <body>
-    <h1 style="color:#fff;font-size:32px;margin-bottom:0px;text-align:center;margin-left:40px;">Star Wars</h1>
+    <h1 style="color:#fff;font-size:32px;margin-bottom:0px;text-align:center;margin-left:40px;">gotags源码图谱</h1>
 
     <div style="text-align: center; position:relative;">
         <!-- 知识图谱 -->
@@ -169,8 +206,9 @@ body {
          <!-- 信息展示 -->
         <div id="info">
             <h4></h4>
+            <div id="detail"></div>
+            <div id="code"></div>
         </div>
-
     </div>
 
 </body>
@@ -185,13 +223,26 @@ $(document).ready(function(){
         height = svg.attr("height")
     console.log("hjy",width,height)
 
+    //返回随机颜色代码
+    function random_color() {
+        var letters = '0123456789ABCDEF'.split('');
+        var color = '#';
+        for (var i = 0; i < 6; i++ ) {
+            color += letters[Math.round(Math.random() * 15)];
+        }
+        return color;
+    }
+
     //定义name变量制作图标
-    var names = ['栅栏','包', '常量', '变量', '类型', '接口', '字段','unknown','方法','构造函数','函数','文件名'];
-    var colors = ['#6ca46c', '#6ca46c', '#4e88af', '#ca635f', '#d2907c', '#d6744d', '#ded295', '#def295', '#fed295', '#dfd295', '#ded2f5', '#ded29f'];
+    var names = ['包', '常量', '变量', '类型', '接口', '字段','unknown','方法','构造函数','函数','文件名'];
+    //var colors = ['#6ca46c', '#4e88af', '#ca635f', '#d2907c', '#d6744d', '#ded295', '#def295', '#fed295', '#dfd295', '#ded2f5', '#ded29f'];
+    var colors =  new Array();
 
     //背景颜色设置 补充CSS样式设置字体布局
     for (var i=0; i < names.length; i++) {
-        $('#indicator').append("<div><span style='background-color:" + colors[i] + "'></span>" + names[i] + "</div>");
+        var color = random_color()
+        $('#indicator').append("<div><span style='background-color:" + color + "'></span>" + names[i] + "</div>");
+        colors[i] = color
     }
 
     //利用d3.forceSimulation()定义关系图 包括设置边link、排斥电荷charge、关系图中心点(有点设计模式的意味)
@@ -355,10 +406,11 @@ $(document).ready(function(){
         if(!dragging) {
             //获取被选中元素的名字
             var name = $(this).attr("name");
+            var info = graph.info
 
             $('#info h4').css('color', $(this).attr('fill')).text(name);
             console.log(info[name])
-            $('#info p').remove();
+            $('#detail p').remove();
             for (var key in info[name]) {
                 if (typeof(info[name][key]) == 'object') {
                     continue;
@@ -366,8 +418,57 @@ $(document).ready(function(){
                 if (key == 'url' || key == 'title' || key == 'name' || key == 'edited' || key == 'created' || key == 'homeworld') {
                     continue;
                 }
-                $('#info').append('<p><span>' + key + '</span>' + info[name][key] + '</p>');
+                $('#detail').append('<p><span>' + key + '</span>' + info[name][key] + '</p>');
             }
+            // 加载文本数据并定位行数
+            $('#code')[0].innerHTML="";
+            /*$('#code textarea').remove();
+            $('#code #leftBox').remove();*/
+            
+            if(info[name].hasOwnProperty("file")){
+                var txt ;
+                d3.text(info[name].file, function(error, data) {
+                    if (error) throw error;
+                    
+                    txt = data;
+                    var lineCnt = 0;
+                    if(data.indexOf("\r\n")>=0){
+                        lineCnt = data.split("\r\n").length;
+                    }else{
+                        lineCnt = data.split("\n").length;
+                    }
+
+                    var nums = "";
+                    for(var i = 1;i <= lineCnt;i ++){
+                        if(document.all){
+                            nums += i + "\r\n";//判断浏览器是否是IE
+                        }else{
+                            nums += i + "\n";
+                        }
+                    }
+
+                    $('#code').append('<div id="leftBox"><textarea wrap="off" row="20" cols="3" id="leftNum" disabled>'+nums+'</textarea></div><textarea rows="20" cols="40" wrap="off" id="codetext" readonly>'+txt+'</textarea>')
+             
+                    if(info[name].hasOwnProperty("line")){
+                        
+                        console.log($('#code textarea'));
+                        console.log($('#codetext')[0].scrollHeight);
+                        console.log($('#codetext').scrollTop );
+                        var textHeight = $('#codetext')[0].scrollHeight;
+                        console.log("after:" + textHeight)
+                        
+                        $('#codetext')[0].scrollTop = ((info[name].line-2) * textHeight) / lineCnt;
+                        $('#leftNum')[0].scrollTop = ((info[name].line-2) * textHeight) / lineCnt;
+                    }
+                    $('#codetext')[0].addEventListener("scroll",function(){
+                        $('#leftNum')[0].scrollTop = this.scrollTop;
+                    })
+                    
+                });
+            }
+            
+            
+
             //选择#svg1 .nodes中所有的circle，再增加个class
             d3.select('#svg1 .nodes').selectAll('circle').attr('class', function(d) {
                 //数据的id是否等于name,返回空

@@ -126,9 +126,11 @@ func (t Tag) Triple() [][]string {
 	triple = append(triple, one)
 	two := []string{"v", tagTypeHash[t.Type], t.Name, t.Name}
 	triple = append(triple, two)
-	three := []string{"e", tagRelaHash[t.Type], t.File, t.Name, "位置", t.Address}
+	three := []string{"e", tagRelaHash[t.Type], t.File,
+		t.Name, "位置", t.Address}
 	if t.Type == Package {
-		three = []string{"e", tagRelaHash[t.Type], t.Name, t.File, "位置", t.Address}
+		three = []string{"e", tagRelaHash[t.Type], t.Name,
+			t.File, "位置", t.Address}
 	}
 
 	for k, v := range t.Fields {
@@ -143,23 +145,28 @@ func (t Tag) Triple() [][]string {
 
 }
 
+type Attr map[string]string
+
 type Node struct {
-	Size  int    `json:"size,int"`
-	Group int    `json:"group,int"`
-	Id    string `json:"id,string"`
-	Class string `json:"class,string"`
+	Size  int    `json:"size"`
+	Group int    `json:"group"`
+	Id    string `json:"id"`
+	Class string `json:"class"`
+	Attrs Attr   `json:"attrs"`
 }
 
 type Link struct {
-	Source   string `json:"source,string"`
-	Target   string `json:"target,string"`
-	Value    int    `json:"value,int"`
-	Relation string `json:"relation,string"`
+	Source   string `json:"source"`
+	Target   string `json:"target"`
+	Value    int    `json:"value"`
+	Relation string `json:"relation"`
+	Attrs    Attr   `json:"attrs"`
 }
 
 type Graph struct {
-	Nodes []Node `json:"nodes,string"`
-	Links []Link `json:"links,string"`
+	Nodes []Node          `json:"nodes"`
+	Links []Link          `json:"links"`
+	Info  map[string]Attr `json:"info"`
 }
 
 // String接口： 结构化输出tag的图实例
@@ -195,18 +202,18 @@ func (t Tag) Graph() ([]Node, Link) {
 	}
 
 	tagIdHash := map[TagType]int{
-		Package:     1,
-		Import:      1,
-		Constant:    2,
-		Variable:    3,
-		Type:        4,
-		Interface:   5,
-		Field:       6,
-		Embedded:    7,
-		Method:      8,
-		Constructor: 9,
-		Function:    10,
-		File:        11,
+		Package:     0,
+		Import:      0,
+		Constant:    1,
+		Variable:    2,
+		Type:        3,
+		Interface:   4,
+		Field:       5,
+		Embedded:    6,
+		Method:      7,
+		Constructor: 8,
+		Function:    9,
+		File:        10,
 	}
 
 	var nodes []Node
@@ -215,15 +222,36 @@ func (t Tag) Graph() ([]Node, Link) {
 	if t.Type == "p" || t.Type == "i" {
 		name = t.Name
 	}
-	node1 := Node{Size: tagIdHash[File] * 2, Group: tagIdHash[File], Id: t.File, Class: tagTypeHash[File]}
+	node1 := Node{Size: 5 + tagIdHash[File]*1,
+		Group: tagIdHash[File], Id: t.File,
+		Class: tagTypeHash[File],
+		Attrs: map[string]string{"tagType": string(File),
+			"tagName": tagTypeHash[File],
+			"tagVal":  t.File, "file": t.File}}
 	nodes = append(nodes, node1)
-	node2 := Node{Size: tagIdHash[t.Type] * 2, Group: tagIdHash[t.Type], Id: name, Class: tagTypeHash[t.Type]}
+	node2 := Node{Size: 5 + tagIdHash[t.Type]*1,
+		Group: tagIdHash[t.Type], Id: name,
+		Class: tagTypeHash[t.Type],
+		Attrs: map[string]string{"tagType": string(t.Type),
+			"tagName": tagTypeHash[t.Type], "tagVal": t.Name}}
+	if t.Type != "p" && t.Type != "i" {
+		node2.Attrs["file"] = t.File
+		node2.Attrs["line"] = t.Address
+	}
 	nodes = append(nodes, node2)
 
-	link := Link{Source: t.File, Target: name, Value: 3, Relation: tagRelaHash[t.Type]}
+	link := Link{Source: t.File, Target: name, Value: 3,
+		Relation: tagRelaHash[t.Type],
+		Attrs:    map[string]string{"位置": t.Address}}
 	if t.Type == Package {
 		link.Source = name
 		link.Target = t.File
+	}
+	for k, v := range t.Fields {
+		if len(v) == 0 {
+			continue
+		}
+		link.Attrs[string(k)] = v
 	}
 
 	return nodes, link

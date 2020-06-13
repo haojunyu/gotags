@@ -213,7 +213,7 @@ func main() {
 
 	// 输出部分
 	tripleData := [][]string{}
-	graphData := Graph{}
+	graphData := Graph{Info: make(map[string]Attr)}
 	nodeSet := make(map[string]bool)
 	output := createMetaTags()
 	for _, tag := range tags {
@@ -225,14 +225,16 @@ func main() {
 
 		nodes, link := tag.Graph()
 		for _, node := range nodes {
-			key := node.Class + node.Id
+			key := node.Id
 			//fmt.Printf(key)
 			if _, ok := nodeSet[key]; !ok {
 				graphData.Nodes = append(graphData.Nodes, node)
+				graphData.Info[key] = node.Attrs
 				nodeSet[key] = true
 			}
 		}
 		graphData.Links = append(graphData.Links, link)
+		graphData.Info[link.Source+link.Target] = link.Attrs
 	}
 
 	if sortOutput {
@@ -294,15 +296,25 @@ func graphWriter(filename string, graphData Graph) {
 	defer filePtr.Close()
 
 	// 创建Json编码器
-	encoder := json.NewEncoder(filePtr)
+	// encoder := json.NewEncoder(filePtr)
 
-	err = encoder.Encode(graphData)
+	// err = encoder.Encode(graphData)
+	// if err != nil {
+	// 	fmt.Println("Encoder failed", err.Error())
+
+	// } else {
+	// 	fmt.Println("Encoder success")
+	// }
+
+	// 带JSON缩进格式写文件
+	data, err := json.MarshalIndent(graphData, "", "  ")
 	if err != nil {
 		fmt.Println("Encoder failed", err.Error())
-
 	} else {
 		fmt.Println("Encoder success")
 	}
+
+	filePtr.Write(data)
 }
 
 // createMetaTags函数： 生成源数据
