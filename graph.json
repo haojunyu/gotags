@@ -1,0 +1,5701 @@
+{
+  "nodes": [
+    {
+      "size": 15,
+      "group": 10,
+      "id": "check.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "check.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "check.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "main",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "p",
+        "tagVal": "main"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "fmt",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "fmt"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_check",
+      "class": "函数",
+      "attrs": {
+        "file": "check.go",
+        "line": "7",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "check"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "check_test.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "check_test.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "check_test.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "testing",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "testing"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestCheck",
+      "class": "函数",
+      "attrs": {
+        "file": "check_test.go",
+        "line": "7",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestCheck"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "fields.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "fields.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "fields.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "regexp",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "regexp"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_FieldSet",
+      "class": "类型",
+      "attrs": {
+        "file": "fields.go",
+        "line": "9",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "FieldSet"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Fields",
+      "class": "字段",
+      "attrs": {
+        "file": "fields.go",
+        "line": "19",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Fields"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_ErrInvalidFields",
+      "class": "类型",
+      "attrs": {
+        "file": "fields.go",
+        "line": "18",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "ErrInvalidFields"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_fieldsPattern",
+      "class": "变量",
+      "attrs": {
+        "file": "fields.go",
+        "line": "27",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "fieldsPattern"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Includes",
+      "class": "方法",
+      "attrs": {
+        "file": "fields.go",
+        "line": "12",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Includes"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Error",
+      "class": "方法",
+      "attrs": {
+        "file": "fields.go",
+        "line": "22",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Error"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_parseFields",
+      "class": "函数",
+      "attrs": {
+        "file": "fields.go",
+        "line": "29",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "parseFields"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_parseExtraSymbols",
+      "class": "函数",
+      "attrs": {
+        "file": "fields.go",
+        "line": "39",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "parseExtraSymbols"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "fields_test.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "fields_test.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "fields_test.go"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestParseFieldsEmpty",
+      "class": "函数",
+      "attrs": {
+        "file": "fields_test.go",
+        "line": "7",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestParseFieldsEmpty"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestParseFieldsLanguage",
+      "class": "函数",
+      "attrs": {
+        "file": "fields_test.go",
+        "line": "14",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestParseFieldsLanguage"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestParseFieldsInvalid",
+      "class": "函数",
+      "attrs": {
+        "file": "fields_test.go",
+        "line": "24",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestParseFieldsInvalid"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "main.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "main.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "main.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "bufio",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "bufio"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "encoding/csv",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "encoding/csv"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "encoding/json",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "encoding/json"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "flag",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "flag"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "io",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "io"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "os",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "os"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "path/filepath",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "path/filepath"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "runtime",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "runtime"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "sort",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "sort"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "strings",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "strings"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Version",
+      "class": "常量",
+      "attrs": {
+        "file": "main.go",
+        "line": "19",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Version"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Name",
+      "class": "常量",
+      "attrs": {
+        "file": "main.go",
+        "line": "20",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Name"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_URL",
+      "class": "常量",
+      "attrs": {
+        "file": "main.go",
+        "line": "21",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "URL"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_AuthorName",
+      "class": "常量",
+      "attrs": {
+        "file": "main.go",
+        "line": "22",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "AuthorName"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_AuthorEmail",
+      "class": "常量",
+      "attrs": {
+        "file": "main.go",
+        "line": "23",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "AuthorEmail"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_printVersion",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "27",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "printVersion"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_inputFile",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "28",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "inputFile"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_outputFile",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "29",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "outputFile"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_recurse",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "30",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "recurse"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_sortOutput",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "31",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "sortOutput"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_silent",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "32",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "silent"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_relative",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "33",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "relative"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_listLangs",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "34",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "listLangs"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_fields",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "35",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "fields"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_extraSymbols",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "36",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "extraSymbols"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_flags",
+      "class": "变量",
+      "attrs": {
+        "file": "main.go",
+        "line": "40",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "flags"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_init",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "44",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "init"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_walkDir",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "64",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "walkDir"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_recurseNames",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "79",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "recurseNames"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_readNames",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "96",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "readNames"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_getFileNames",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "126",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "getFileNames"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_main",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "146",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "main"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_csvWriter",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "270",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "csvWriter"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_graphWriter",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "289",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "graphWriter"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_createMetaTags",
+      "class": "函数",
+      "attrs": {
+        "file": "main.go",
+        "line": "321",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "createMetaTags"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "parser.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "parser.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "parser.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "go/ast",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "go/ast"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "go/parser",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "go/parser"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "go/token",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "go/token"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_fset",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "15",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "fset"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_tags",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "16",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "tags"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_types",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "17",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "types"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_relative",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "18",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "relative"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_basepath",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "19",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "basepath"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_extraSymbols",
+      "class": "字段",
+      "attrs": {
+        "file": "parser.go",
+        "line": "20",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "extraSymbols"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_tagParser",
+      "class": "类型",
+      "attrs": {
+        "file": "parser.go",
+        "line": "14",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "tagParser"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_Parse",
+      "class": "函数",
+      "attrs": {
+        "file": "parser.go",
+        "line": "25",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "Parse"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parsePackage",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "53",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parsePackage"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseImports",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "59",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseImports"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseDeclarations",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "70",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseDeclarations"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseFunction",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "95",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseFunction"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseTypeDeclaration",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "137",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseTypeDeclaration"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseValueDeclaration",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "166",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseValueDeclaration"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseStructFields",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "196",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseStructFields"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_parseInterfaceMethods",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "220",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "parseInterfaceMethods"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_createTag",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "244",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "createTag"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_belongsToReceiver",
+      "class": "方法",
+      "attrs": {
+        "file": "parser.go",
+        "line": "263",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "belongsToReceiver"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_getTypes",
+      "class": "函数",
+      "attrs": {
+        "file": "parser.go",
+        "line": "290",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "getTypes"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_getType",
+      "class": "函数",
+      "attrs": {
+        "file": "parser.go",
+        "line": "330",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "getType"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_getAccess",
+      "class": "函数",
+      "attrs": {
+        "file": "parser.go",
+        "line": "371",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "getAccess"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "parser_test.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "parser_test.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "parser_test.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "strconv",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "strconv"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_goVersionRegexp",
+      "class": "变量",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "13",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "goVersionRegexp"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_TagSlice",
+      "class": "类型",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "17",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "TagSlice"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_F",
+      "class": "类型",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "41",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "F"
+      }
+    },
+    {
+      "size": 7,
+      "group": 2,
+      "id": "v_testCases",
+      "class": "变量",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "43",
+        "tagName": "变量",
+        "tagType": "v",
+        "tagVal": "testCases"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Len",
+      "class": "方法",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "20",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Len"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Less",
+      "class": "方法",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "25",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Less"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Swap",
+      "class": "方法",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "30",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Swap"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Dump",
+      "class": "方法",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "35",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Dump"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestParse",
+      "class": "函数",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "260",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestParse"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_tag",
+      "class": "函数",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "303",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "tag"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_extractVersionCode",
+      "class": "函数",
+      "attrs": {
+        "file": "parser_test.go",
+        "line": "317",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "extractVersionCode"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "tag.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "tag.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "tag.go"
+      }
+    },
+    {
+      "size": 5,
+      "group": 0,
+      "id": "bytes",
+      "class": "包",
+      "attrs": {
+        "tagName": "包",
+        "tagType": "i",
+        "tagVal": "bytes"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Name",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "13",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Name"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_File",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "14",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "File"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Address",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "15",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Address"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Type",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "16",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Type"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_Tag",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "12",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "Tag"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_TagField",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "21",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "TagField"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Access",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "25",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Access"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Signature",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "26",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Signature"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_TypeField",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "27",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "TypeField"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_ReceiverType",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "28",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "ReceiverType"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Line",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "29",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Line"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_InterfaceType",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "30",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "InterfaceType"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Language",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "31",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Language"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_ExtraTags",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "32",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "ExtraTags"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_TagType",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "36",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "TagType"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Package",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "40",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Package"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Import",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "41",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Import"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Constant",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "42",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Constant"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Variable",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "43",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Variable"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Type",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "44",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Type"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Interface",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "45",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Interface"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Field",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "46",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Field"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Embedded",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "47",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Embedded"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Method",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "48",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Method"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Constructor",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "49",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Constructor"
+      }
+    },
+    {
+      "size": 6,
+      "group": 1,
+      "id": "c_Function",
+      "class": "常量",
+      "attrs": {
+        "file": "tag.go",
+        "line": "50",
+        "tagName": "常量",
+        "tagType": "c",
+        "tagVal": "Function"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_Attr",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "146",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "Attr"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Size",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "149",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Size"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Group",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "150",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Group"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Id",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "151",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Id"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Class",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "152",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Class"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Attrs",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "153",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Attrs"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_Node",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "148",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "Node"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Source",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "157",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Source"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Target",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "158",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Target"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Value",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "159",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Value"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Relation",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "160",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Relation"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_Link",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "156",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "Link"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Nodes",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "165",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Nodes"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Links",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "166",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Links"
+      }
+    },
+    {
+      "size": 10,
+      "group": 5,
+      "id": "w_Info",
+      "class": "字段",
+      "attrs": {
+        "file": "tag.go",
+        "line": "167",
+        "tagName": "字段",
+        "tagType": "w",
+        "tagVal": "Info"
+      }
+    },
+    {
+      "size": 8,
+      "group": 3,
+      "id": "t_Graph",
+      "class": "类型",
+      "attrs": {
+        "file": "tag.go",
+        "line": "164",
+        "tagName": "类型",
+        "tagType": "t",
+        "tagVal": "Graph"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_NewTag",
+      "class": "函数",
+      "attrs": {
+        "file": "tag.go",
+        "line": "54",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "NewTag"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_String",
+      "class": "方法",
+      "attrs": {
+        "file": "tag.go",
+        "line": "66",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "String"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Triple",
+      "class": "方法",
+      "attrs": {
+        "file": "tag.go",
+        "line": "95",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Triple"
+      }
+    },
+    {
+      "size": 12,
+      "group": 7,
+      "id": "m_Graph",
+      "class": "方法",
+      "attrs": {
+        "file": "tag.go",
+        "line": "171",
+        "tagName": "方法",
+        "tagType": "m",
+        "tagVal": "Graph"
+      }
+    },
+    {
+      "size": 15,
+      "group": 10,
+      "id": "tag_test.go",
+      "class": "文件名",
+      "attrs": {
+        "file": "tag_test.go",
+        "tagName": "文件名",
+        "tagType": "l",
+        "tagVal": "tag_test.go"
+      }
+    },
+    {
+      "size": 14,
+      "group": 9,
+      "id": "f_TestTagString",
+      "class": "函数",
+      "attrs": {
+        "file": "tag_test.go",
+        "line": "7",
+        "tagName": "函数",
+        "tagType": "f",
+        "tagVal": "TestTagString"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "main",
+      "target": "check.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "check.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "check.go",
+      "target": "f_check",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "7",
+        "signature": "()",
+        "type": "string",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "main",
+      "target": "check_test.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "check_test.go",
+      "target": "testing",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "check_test.go",
+      "target": "f_TestCheck",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "7",
+        "signature": "(t *testing.T)",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "main",
+      "target": "fields.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "regexp",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "5",
+        "位置": "5"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "t_FieldSet",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "9",
+        "type": "map[TagField]bool",
+        "位置": "9"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "w_Fields",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "ErrInvalidFields",
+        "line": "19",
+        "type": "string",
+        "位置": "19"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "t_ErrInvalidFields",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "18",
+        "type": "struct",
+        "位置": "18"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "v_fieldsPattern",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "27",
+        "位置": "27"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "m_Includes",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "FieldSet",
+        "line": "12",
+        "signature": "(field TagField)",
+        "type": "bool",
+        "位置": "12"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "m_Error",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "ErrInvalidFields",
+        "line": "22",
+        "signature": "()",
+        "type": "string",
+        "位置": "22"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "f_parseFields",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "29",
+        "signature": "(fields string)",
+        "type": "FieldSet, error",
+        "位置": "29"
+      }
+    },
+    {
+      "source": "fields.go",
+      "target": "f_parseExtraSymbols",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "39",
+        "signature": "(symbols string)",
+        "type": "FieldSet, error",
+        "位置": "39"
+      }
+    },
+    {
+      "source": "main",
+      "target": "fields_test.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "fields_test.go",
+      "target": "testing",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "fields_test.go",
+      "target": "f_TestParseFieldsEmpty",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "7",
+        "signature": "(t *testing.T)",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "fields_test.go",
+      "target": "f_TestParseFieldsLanguage",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "14",
+        "signature": "(t *testing.T)",
+        "位置": "14"
+      }
+    },
+    {
+      "source": "fields_test.go",
+      "target": "f_TestParseFieldsInvalid",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "24",
+        "signature": "(t *testing.T)",
+        "位置": "24"
+      }
+    },
+    {
+      "source": "main",
+      "target": "main.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "bufio",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "encoding/csv",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "5",
+        "位置": "5"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "encoding/json",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "6",
+        "位置": "6"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "flag",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "7",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "8",
+        "位置": "8"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "io",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "9",
+        "位置": "9"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "os",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "10",
+        "位置": "10"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "path/filepath",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "11",
+        "位置": "11"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "runtime",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "12",
+        "位置": "12"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "sort",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "13",
+        "位置": "13"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "strings",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "14",
+        "位置": "14"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "c_Version",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "19",
+        "位置": "19"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "c_Name",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "20",
+        "位置": "20"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "c_URL",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "21",
+        "位置": "21"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "c_AuthorName",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "22",
+        "位置": "22"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "c_AuthorEmail",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "23",
+        "位置": "23"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_printVersion",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "27",
+        "type": "bool",
+        "位置": "27"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_inputFile",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "28",
+        "type": "string",
+        "位置": "28"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_outputFile",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "29",
+        "type": "string",
+        "位置": "29"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_recurse",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "30",
+        "type": "bool",
+        "位置": "30"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_sortOutput",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "31",
+        "type": "bool",
+        "位置": "31"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_silent",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "32",
+        "type": "bool",
+        "位置": "32"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_relative",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "33",
+        "type": "bool",
+        "位置": "33"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_listLangs",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "34",
+        "type": "bool",
+        "位置": "34"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_fields",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "35",
+        "type": "string",
+        "位置": "35"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_extraSymbols",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "36",
+        "type": "string",
+        "位置": "36"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "v_flags",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "40",
+        "位置": "40"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_init",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "44",
+        "signature": "()",
+        "位置": "44"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_walkDir",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "64",
+        "signature": "(names []string, dir string)",
+        "type": "[]string, error",
+        "位置": "64"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_recurseNames",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "79",
+        "signature": "(names []string)",
+        "type": "[]string, error",
+        "位置": "79"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_readNames",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "96",
+        "signature": "(names []string)",
+        "type": "[]string, error",
+        "位置": "96"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_getFileNames",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "126",
+        "signature": "()",
+        "type": "[]string, error",
+        "位置": "126"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_main",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "146",
+        "signature": "()",
+        "位置": "146"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_csvWriter",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "270",
+        "signature": "(filename string, csvData [][]string)",
+        "位置": "270"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_graphWriter",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "289",
+        "signature": "(filename string, graphData Graph)",
+        "位置": "289"
+      }
+    },
+    {
+      "source": "main.go",
+      "target": "f_createMetaTags",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "321",
+        "signature": "()",
+        "type": "[]string",
+        "位置": "321"
+      }
+    },
+    {
+      "source": "main",
+      "target": "parser.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "go/ast",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "5",
+        "位置": "5"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "go/parser",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "6",
+        "位置": "6"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "go/token",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "7",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "os",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "8",
+        "位置": "8"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "path/filepath",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "9",
+        "位置": "9"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "strings",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "10",
+        "位置": "10"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_fset",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "15",
+        "type": "*token.FileSet",
+        "位置": "15"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_tags",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "16",
+        "type": "[]Tag",
+        "位置": "16"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_types",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "17",
+        "type": "[]string",
+        "位置": "17"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_relative",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "18",
+        "type": "bool",
+        "位置": "18"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_basepath",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "19",
+        "type": "string",
+        "位置": "19"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "w_extraSymbols",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "20",
+        "type": "FieldSet",
+        "位置": "20"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "t_tagParser",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "private",
+        "line": "14",
+        "type": "struct",
+        "位置": "14"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "f_Parse",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "25",
+        "signature": "(filename string, relative bool, basepath string, extra FieldSet)",
+        "type": "[]Tag, error",
+        "位置": "25"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parsePackage",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "53",
+        "signature": "(f *ast.File)",
+        "type": "string",
+        "位置": "53"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseImports",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "59",
+        "signature": "(f *ast.File)",
+        "位置": "59"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseDeclarations",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "70",
+        "signature": "(f *ast.File, pkgName string)",
+        "位置": "70"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseFunction",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "95",
+        "signature": "(f *ast.FuncDecl, pkgName string)",
+        "位置": "95"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseTypeDeclaration",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "137",
+        "signature": "(ts *ast.TypeSpec, pkgName string)",
+        "位置": "137"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseValueDeclaration",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "166",
+        "signature": "(v *ast.ValueSpec, pkgName string)",
+        "位置": "166"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseStructFields",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "196",
+        "signature": "(name string, s *ast.StructType)",
+        "位置": "196"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_parseInterfaceMethods",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "220",
+        "signature": "(name string, s *ast.InterfaceType)",
+        "位置": "220"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_createTag",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "244",
+        "signature": "(name string, pos token.Pos, tagType TagType)",
+        "type": "Tag",
+        "位置": "244"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "m_belongsToReceiver",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "private",
+        "ctype": "tagParser",
+        "line": "263",
+        "signature": "(types *ast.FieldList)",
+        "type": "string, bool",
+        "位置": "263"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "f_getTypes",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "290",
+        "signature": "(fields *ast.FieldList, includeNames bool)",
+        "type": "string",
+        "位置": "290"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "f_getType",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "330",
+        "signature": "(node ast.Node, star bool)",
+        "type": "string",
+        "位置": "330"
+      }
+    },
+    {
+      "source": "parser.go",
+      "target": "f_getAccess",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "371",
+        "signature": "(name string)",
+        "type": "string",
+        "位置": "371"
+      }
+    },
+    {
+      "source": "main",
+      "target": "parser_test.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "path/filepath",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "5",
+        "位置": "5"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "regexp",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "6",
+        "位置": "6"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "runtime",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "7",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "sort",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "8",
+        "位置": "8"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "strconv",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "9",
+        "位置": "9"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "testing",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "10",
+        "位置": "10"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "v_goVersionRegexp",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "13",
+        "位置": "13"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "t_TagSlice",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "17",
+        "type": "[]Tag",
+        "位置": "17"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "t_F",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "41",
+        "type": "map[TagField]string",
+        "位置": "41"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "v_testCases",
+      "value": 3,
+      "relation": "变量定义",
+      "attrs": {
+        "access": "private",
+        "line": "43",
+        "位置": "43"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "m_Len",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "TagSlice",
+        "line": "20",
+        "signature": "()",
+        "type": "int",
+        "位置": "20"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "m_Less",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "TagSlice",
+        "line": "25",
+        "signature": "(i, j int)",
+        "type": "bool",
+        "位置": "25"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "m_Swap",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "TagSlice",
+        "line": "30",
+        "signature": "(i, j int)",
+        "位置": "30"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "m_Dump",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "TagSlice",
+        "line": "35",
+        "signature": "()",
+        "位置": "35"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "f_TestParse",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "260",
+        "signature": "(t *testing.T)",
+        "位置": "260"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "f_tag",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "303",
+        "signature": "(n string, l int, t TagType, fields F)",
+        "type": "Tag",
+        "位置": "303"
+      }
+    },
+    {
+      "source": "parser_test.go",
+      "target": "f_extractVersionCode",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "private",
+        "line": "317",
+        "signature": "(version string)",
+        "type": "int",
+        "位置": "317"
+      }
+    },
+    {
+      "source": "main",
+      "target": "tag.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "bytes",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "fmt",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "5",
+        "位置": "5"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "sort",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "6",
+        "位置": "6"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "strconv",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "7",
+        "位置": "7"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "strings",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "8",
+        "位置": "8"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Name",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "13",
+        "type": "string",
+        "位置": "13"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_File",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "14",
+        "type": "string",
+        "位置": "14"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Address",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "15",
+        "type": "string",
+        "位置": "15"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Type",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "16",
+        "type": "TagType",
+        "位置": "16"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Fields",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "17",
+        "type": "map[TagField]string",
+        "位置": "17"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_Tag",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "12",
+        "type": "struct",
+        "位置": "12"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_TagField",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "21",
+        "type": "string",
+        "位置": "21"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Access",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "25",
+        "type": "TagField",
+        "位置": "25"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Signature",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "26",
+        "type": "TagField",
+        "位置": "26"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_TypeField",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "27",
+        "type": "TagField",
+        "位置": "27"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_ReceiverType",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "28",
+        "type": "TagField",
+        "位置": "28"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Line",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "29",
+        "type": "TagField",
+        "位置": "29"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_InterfaceType",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "30",
+        "type": "TagField",
+        "位置": "30"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Language",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "31",
+        "type": "TagField",
+        "位置": "31"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_ExtraTags",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "32",
+        "type": "TagField",
+        "位置": "32"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_TagType",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "36",
+        "type": "string",
+        "位置": "36"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Package",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "40",
+        "type": "TagType",
+        "位置": "40"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Import",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "41",
+        "type": "TagType",
+        "位置": "41"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Constant",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "42",
+        "type": "TagType",
+        "位置": "42"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Variable",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "43",
+        "type": "TagType",
+        "位置": "43"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Type",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "44",
+        "type": "TagType",
+        "位置": "44"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Interface",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "45",
+        "type": "TagType",
+        "位置": "45"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Field",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "46",
+        "type": "TagType",
+        "位置": "46"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Embedded",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "47",
+        "type": "TagType",
+        "位置": "47"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Method",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "48",
+        "type": "TagType",
+        "位置": "48"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Constructor",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "49",
+        "type": "TagType",
+        "位置": "49"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "c_Function",
+      "value": 3,
+      "relation": "常量定义",
+      "attrs": {
+        "access": "public",
+        "line": "50",
+        "type": "TagType",
+        "位置": "50"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_Attr",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "146",
+        "type": "map[string]string",
+        "位置": "146"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Size",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Node",
+        "line": "149",
+        "type": "int",
+        "位置": "149"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Group",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Node",
+        "line": "150",
+        "type": "int",
+        "位置": "150"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Id",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Node",
+        "line": "151",
+        "type": "string",
+        "位置": "151"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Class",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Node",
+        "line": "152",
+        "type": "string",
+        "位置": "152"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Attrs",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Node",
+        "line": "153",
+        "type": "Attr",
+        "位置": "153"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_Node",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "148",
+        "type": "struct",
+        "位置": "148"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Source",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Link",
+        "line": "157",
+        "type": "string",
+        "位置": "157"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Target",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Link",
+        "line": "158",
+        "type": "string",
+        "位置": "158"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Value",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Link",
+        "line": "159",
+        "type": "int",
+        "位置": "159"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Relation",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Link",
+        "line": "160",
+        "type": "string",
+        "位置": "160"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Attrs",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Link",
+        "line": "161",
+        "type": "Attr",
+        "位置": "161"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_Link",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "156",
+        "type": "struct",
+        "位置": "156"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Nodes",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Graph",
+        "line": "165",
+        "type": "[]Node",
+        "位置": "165"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Links",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Graph",
+        "line": "166",
+        "type": "[]Link",
+        "位置": "166"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "w_Info",
+      "value": 3,
+      "relation": "字段定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Graph",
+        "line": "167",
+        "type": "map[string]Attr",
+        "位置": "167"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "t_Graph",
+      "value": 3,
+      "relation": "类型定义",
+      "attrs": {
+        "access": "public",
+        "line": "164",
+        "type": "struct",
+        "位置": "164"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "f_NewTag",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "54",
+        "signature": "(name, file string, line int, tagType TagType)",
+        "type": "Tag",
+        "位置": "54"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "m_String",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "66",
+        "signature": "()",
+        "type": "string",
+        "位置": "66"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "m_Triple",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "95",
+        "signature": "()",
+        "type": "[][]string",
+        "位置": "95"
+      }
+    },
+    {
+      "source": "tag.go",
+      "target": "m_Graph",
+      "value": 3,
+      "relation": "方法定义",
+      "attrs": {
+        "access": "public",
+        "ctype": "Tag",
+        "line": "171",
+        "signature": "()",
+        "type": "[]Node, Link",
+        "位置": "171"
+      }
+    },
+    {
+      "source": "main",
+      "target": "tag_test.go",
+      "value": 3,
+      "relation": "包含",
+      "attrs": {
+        "line": "1",
+        "位置": "1"
+      }
+    },
+    {
+      "source": "tag_test.go",
+      "target": "testing",
+      "value": 3,
+      "relation": "依赖",
+      "attrs": {
+        "line": "4",
+        "位置": "4"
+      }
+    },
+    {
+      "source": "tag_test.go",
+      "target": "f_TestTagString",
+      "value": 3,
+      "relation": "函数定义",
+      "attrs": {
+        "access": "public",
+        "line": "7",
+        "signature": "(t *testing.T)",
+        "位置": "7"
+      }
+    }
+  ],
+  "info": {
+    "bufio": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "bufio"
+    },
+    "bytes": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "bytes"
+    },
+    "c_Access": {
+      "file": "tag.go",
+      "line": "25",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Access"
+    },
+    "c_AuthorEmail": {
+      "file": "main.go",
+      "line": "23",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "AuthorEmail"
+    },
+    "c_AuthorName": {
+      "file": "main.go",
+      "line": "22",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "AuthorName"
+    },
+    "c_Constant": {
+      "file": "tag.go",
+      "line": "42",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Constant"
+    },
+    "c_Constructor": {
+      "file": "tag.go",
+      "line": "49",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Constructor"
+    },
+    "c_Embedded": {
+      "file": "tag.go",
+      "line": "47",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Embedded"
+    },
+    "c_ExtraTags": {
+      "file": "tag.go",
+      "line": "32",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "ExtraTags"
+    },
+    "c_Field": {
+      "file": "tag.go",
+      "line": "46",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Field"
+    },
+    "c_Function": {
+      "file": "tag.go",
+      "line": "50",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Function"
+    },
+    "c_Import": {
+      "file": "tag.go",
+      "line": "41",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Import"
+    },
+    "c_Interface": {
+      "file": "tag.go",
+      "line": "45",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Interface"
+    },
+    "c_InterfaceType": {
+      "file": "tag.go",
+      "line": "30",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "InterfaceType"
+    },
+    "c_Language": {
+      "file": "tag.go",
+      "line": "31",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Language"
+    },
+    "c_Line": {
+      "file": "tag.go",
+      "line": "29",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Line"
+    },
+    "c_Method": {
+      "file": "tag.go",
+      "line": "48",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Method"
+    },
+    "c_Name": {
+      "file": "main.go",
+      "line": "20",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Name"
+    },
+    "c_Package": {
+      "file": "tag.go",
+      "line": "40",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Package"
+    },
+    "c_ReceiverType": {
+      "file": "tag.go",
+      "line": "28",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "ReceiverType"
+    },
+    "c_Signature": {
+      "file": "tag.go",
+      "line": "26",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Signature"
+    },
+    "c_Type": {
+      "file": "tag.go",
+      "line": "44",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Type"
+    },
+    "c_TypeField": {
+      "file": "tag.go",
+      "line": "27",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "TypeField"
+    },
+    "c_URL": {
+      "file": "main.go",
+      "line": "21",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "URL"
+    },
+    "c_Variable": {
+      "file": "tag.go",
+      "line": "43",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Variable"
+    },
+    "c_Version": {
+      "file": "main.go",
+      "line": "19",
+      "tagName": "常量",
+      "tagType": "c",
+      "tagVal": "Version"
+    },
+    "check.go": {
+      "file": "check.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "check.go"
+    },
+    "check.gof_check": {
+      "access": "private",
+      "line": "7",
+      "signature": "()",
+      "type": "string",
+      "位置": "7"
+    },
+    "check.gofmt": {
+      "line": "4",
+      "位置": "4"
+    },
+    "check_test.go": {
+      "file": "check_test.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "check_test.go"
+    },
+    "check_test.gof_TestCheck": {
+      "access": "public",
+      "line": "7",
+      "signature": "(t *testing.T)",
+      "位置": "7"
+    },
+    "check_test.gotesting": {
+      "line": "4",
+      "位置": "4"
+    },
+    "encoding/csv": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "encoding/csv"
+    },
+    "encoding/json": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "encoding/json"
+    },
+    "f_NewTag": {
+      "file": "tag.go",
+      "line": "54",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "NewTag"
+    },
+    "f_Parse": {
+      "file": "parser.go",
+      "line": "25",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "Parse"
+    },
+    "f_TestCheck": {
+      "file": "check_test.go",
+      "line": "7",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestCheck"
+    },
+    "f_TestParse": {
+      "file": "parser_test.go",
+      "line": "260",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestParse"
+    },
+    "f_TestParseFieldsEmpty": {
+      "file": "fields_test.go",
+      "line": "7",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestParseFieldsEmpty"
+    },
+    "f_TestParseFieldsInvalid": {
+      "file": "fields_test.go",
+      "line": "24",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestParseFieldsInvalid"
+    },
+    "f_TestParseFieldsLanguage": {
+      "file": "fields_test.go",
+      "line": "14",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestParseFieldsLanguage"
+    },
+    "f_TestTagString": {
+      "file": "tag_test.go",
+      "line": "7",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "TestTagString"
+    },
+    "f_check": {
+      "file": "check.go",
+      "line": "7",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "check"
+    },
+    "f_createMetaTags": {
+      "file": "main.go",
+      "line": "321",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "createMetaTags"
+    },
+    "f_csvWriter": {
+      "file": "main.go",
+      "line": "270",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "csvWriter"
+    },
+    "f_extractVersionCode": {
+      "file": "parser_test.go",
+      "line": "317",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "extractVersionCode"
+    },
+    "f_getAccess": {
+      "file": "parser.go",
+      "line": "371",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "getAccess"
+    },
+    "f_getFileNames": {
+      "file": "main.go",
+      "line": "126",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "getFileNames"
+    },
+    "f_getType": {
+      "file": "parser.go",
+      "line": "330",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "getType"
+    },
+    "f_getTypes": {
+      "file": "parser.go",
+      "line": "290",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "getTypes"
+    },
+    "f_graphWriter": {
+      "file": "main.go",
+      "line": "289",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "graphWriter"
+    },
+    "f_init": {
+      "file": "main.go",
+      "line": "44",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "init"
+    },
+    "f_main": {
+      "file": "main.go",
+      "line": "146",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "main"
+    },
+    "f_parseExtraSymbols": {
+      "file": "fields.go",
+      "line": "39",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "parseExtraSymbols"
+    },
+    "f_parseFields": {
+      "file": "fields.go",
+      "line": "29",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "parseFields"
+    },
+    "f_readNames": {
+      "file": "main.go",
+      "line": "96",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "readNames"
+    },
+    "f_recurseNames": {
+      "file": "main.go",
+      "line": "79",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "recurseNames"
+    },
+    "f_tag": {
+      "file": "parser_test.go",
+      "line": "303",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "tag"
+    },
+    "f_walkDir": {
+      "file": "main.go",
+      "line": "64",
+      "tagName": "函数",
+      "tagType": "f",
+      "tagVal": "walkDir"
+    },
+    "fields.go": {
+      "file": "fields.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "fields.go"
+    },
+    "fields.gof_parseExtraSymbols": {
+      "access": "private",
+      "line": "39",
+      "signature": "(symbols string)",
+      "type": "FieldSet, error",
+      "位置": "39"
+    },
+    "fields.gof_parseFields": {
+      "access": "private",
+      "line": "29",
+      "signature": "(fields string)",
+      "type": "FieldSet, error",
+      "位置": "29"
+    },
+    "fields.gofmt": {
+      "line": "4",
+      "位置": "4"
+    },
+    "fields.gom_Error": {
+      "access": "public",
+      "ctype": "ErrInvalidFields",
+      "line": "22",
+      "signature": "()",
+      "type": "string",
+      "位置": "22"
+    },
+    "fields.gom_Includes": {
+      "access": "public",
+      "ctype": "FieldSet",
+      "line": "12",
+      "signature": "(field TagField)",
+      "type": "bool",
+      "位置": "12"
+    },
+    "fields.goregexp": {
+      "line": "5",
+      "位置": "5"
+    },
+    "fields.got_ErrInvalidFields": {
+      "access": "public",
+      "line": "18",
+      "type": "struct",
+      "位置": "18"
+    },
+    "fields.got_FieldSet": {
+      "access": "public",
+      "line": "9",
+      "type": "map[TagField]bool",
+      "位置": "9"
+    },
+    "fields.gov_fieldsPattern": {
+      "access": "private",
+      "line": "27",
+      "位置": "27"
+    },
+    "fields.gow_Fields": {
+      "access": "public",
+      "ctype": "ErrInvalidFields",
+      "line": "19",
+      "type": "string",
+      "位置": "19"
+    },
+    "fields_test.go": {
+      "file": "fields_test.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "fields_test.go"
+    },
+    "fields_test.gof_TestParseFieldsEmpty": {
+      "access": "public",
+      "line": "7",
+      "signature": "(t *testing.T)",
+      "位置": "7"
+    },
+    "fields_test.gof_TestParseFieldsInvalid": {
+      "access": "public",
+      "line": "24",
+      "signature": "(t *testing.T)",
+      "位置": "24"
+    },
+    "fields_test.gof_TestParseFieldsLanguage": {
+      "access": "public",
+      "line": "14",
+      "signature": "(t *testing.T)",
+      "位置": "14"
+    },
+    "fields_test.gotesting": {
+      "line": "4",
+      "位置": "4"
+    },
+    "flag": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "flag"
+    },
+    "fmt": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "fmt"
+    },
+    "go/ast": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "go/ast"
+    },
+    "go/parser": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "go/parser"
+    },
+    "go/token": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "go/token"
+    },
+    "io": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "io"
+    },
+    "m_Dump": {
+      "file": "parser_test.go",
+      "line": "35",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Dump"
+    },
+    "m_Error": {
+      "file": "fields.go",
+      "line": "22",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Error"
+    },
+    "m_Graph": {
+      "file": "tag.go",
+      "line": "171",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Graph"
+    },
+    "m_Includes": {
+      "file": "fields.go",
+      "line": "12",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Includes"
+    },
+    "m_Len": {
+      "file": "parser_test.go",
+      "line": "20",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Len"
+    },
+    "m_Less": {
+      "file": "parser_test.go",
+      "line": "25",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Less"
+    },
+    "m_String": {
+      "file": "tag.go",
+      "line": "66",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "String"
+    },
+    "m_Swap": {
+      "file": "parser_test.go",
+      "line": "30",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Swap"
+    },
+    "m_Triple": {
+      "file": "tag.go",
+      "line": "95",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "Triple"
+    },
+    "m_belongsToReceiver": {
+      "file": "parser.go",
+      "line": "263",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "belongsToReceiver"
+    },
+    "m_createTag": {
+      "file": "parser.go",
+      "line": "244",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "createTag"
+    },
+    "m_parseDeclarations": {
+      "file": "parser.go",
+      "line": "70",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseDeclarations"
+    },
+    "m_parseFunction": {
+      "file": "parser.go",
+      "line": "95",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseFunction"
+    },
+    "m_parseImports": {
+      "file": "parser.go",
+      "line": "59",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseImports"
+    },
+    "m_parseInterfaceMethods": {
+      "file": "parser.go",
+      "line": "220",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseInterfaceMethods"
+    },
+    "m_parsePackage": {
+      "file": "parser.go",
+      "line": "53",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parsePackage"
+    },
+    "m_parseStructFields": {
+      "file": "parser.go",
+      "line": "196",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseStructFields"
+    },
+    "m_parseTypeDeclaration": {
+      "file": "parser.go",
+      "line": "137",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseTypeDeclaration"
+    },
+    "m_parseValueDeclaration": {
+      "file": "parser.go",
+      "line": "166",
+      "tagName": "方法",
+      "tagType": "m",
+      "tagVal": "parseValueDeclaration"
+    },
+    "main": {
+      "tagName": "包",
+      "tagType": "p",
+      "tagVal": "main"
+    },
+    "main.go": {
+      "file": "main.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "main.go"
+    },
+    "main.gobufio": {
+      "line": "4",
+      "位置": "4"
+    },
+    "main.goc_AuthorEmail": {
+      "access": "public",
+      "line": "23",
+      "位置": "23"
+    },
+    "main.goc_AuthorName": {
+      "access": "public",
+      "line": "22",
+      "位置": "22"
+    },
+    "main.goc_Name": {
+      "access": "public",
+      "line": "20",
+      "位置": "20"
+    },
+    "main.goc_URL": {
+      "access": "public",
+      "line": "21",
+      "位置": "21"
+    },
+    "main.goc_Version": {
+      "access": "public",
+      "line": "19",
+      "位置": "19"
+    },
+    "main.goencoding/csv": {
+      "line": "5",
+      "位置": "5"
+    },
+    "main.goencoding/json": {
+      "line": "6",
+      "位置": "6"
+    },
+    "main.gof_createMetaTags": {
+      "access": "private",
+      "line": "321",
+      "signature": "()",
+      "type": "[]string",
+      "位置": "321"
+    },
+    "main.gof_csvWriter": {
+      "access": "private",
+      "line": "270",
+      "signature": "(filename string, csvData [][]string)",
+      "位置": "270"
+    },
+    "main.gof_getFileNames": {
+      "access": "private",
+      "line": "126",
+      "signature": "()",
+      "type": "[]string, error",
+      "位置": "126"
+    },
+    "main.gof_graphWriter": {
+      "access": "private",
+      "line": "289",
+      "signature": "(filename string, graphData Graph)",
+      "位置": "289"
+    },
+    "main.gof_init": {
+      "access": "private",
+      "line": "44",
+      "signature": "()",
+      "位置": "44"
+    },
+    "main.gof_main": {
+      "access": "private",
+      "line": "146",
+      "signature": "()",
+      "位置": "146"
+    },
+    "main.gof_readNames": {
+      "access": "private",
+      "line": "96",
+      "signature": "(names []string)",
+      "type": "[]string, error",
+      "位置": "96"
+    },
+    "main.gof_recurseNames": {
+      "access": "private",
+      "line": "79",
+      "signature": "(names []string)",
+      "type": "[]string, error",
+      "位置": "79"
+    },
+    "main.gof_walkDir": {
+      "access": "private",
+      "line": "64",
+      "signature": "(names []string, dir string)",
+      "type": "[]string, error",
+      "位置": "64"
+    },
+    "main.goflag": {
+      "line": "7",
+      "位置": "7"
+    },
+    "main.gofmt": {
+      "line": "8",
+      "位置": "8"
+    },
+    "main.goio": {
+      "line": "9",
+      "位置": "9"
+    },
+    "main.goos": {
+      "line": "10",
+      "位置": "10"
+    },
+    "main.gopath/filepath": {
+      "line": "11",
+      "位置": "11"
+    },
+    "main.goruntime": {
+      "line": "12",
+      "位置": "12"
+    },
+    "main.gosort": {
+      "line": "13",
+      "位置": "13"
+    },
+    "main.gostrings": {
+      "line": "14",
+      "位置": "14"
+    },
+    "main.gov_extraSymbols": {
+      "access": "private",
+      "line": "36",
+      "type": "string",
+      "位置": "36"
+    },
+    "main.gov_fields": {
+      "access": "private",
+      "line": "35",
+      "type": "string",
+      "位置": "35"
+    },
+    "main.gov_flags": {
+      "access": "private",
+      "line": "40",
+      "位置": "40"
+    },
+    "main.gov_inputFile": {
+      "access": "private",
+      "line": "28",
+      "type": "string",
+      "位置": "28"
+    },
+    "main.gov_listLangs": {
+      "access": "private",
+      "line": "34",
+      "type": "bool",
+      "位置": "34"
+    },
+    "main.gov_outputFile": {
+      "access": "private",
+      "line": "29",
+      "type": "string",
+      "位置": "29"
+    },
+    "main.gov_printVersion": {
+      "access": "private",
+      "line": "27",
+      "type": "bool",
+      "位置": "27"
+    },
+    "main.gov_recurse": {
+      "access": "private",
+      "line": "30",
+      "type": "bool",
+      "位置": "30"
+    },
+    "main.gov_relative": {
+      "access": "private",
+      "line": "33",
+      "type": "bool",
+      "位置": "33"
+    },
+    "main.gov_silent": {
+      "access": "private",
+      "line": "32",
+      "type": "bool",
+      "位置": "32"
+    },
+    "main.gov_sortOutput": {
+      "access": "private",
+      "line": "31",
+      "type": "bool",
+      "位置": "31"
+    },
+    "maincheck.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "maincheck_test.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "mainfields.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "mainfields_test.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "mainmain.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "mainparser.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "mainparser_test.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "maintag.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "maintag_test.go": {
+      "line": "1",
+      "位置": "1"
+    },
+    "os": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "os"
+    },
+    "parser.go": {
+      "file": "parser.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "parser.go"
+    },
+    "parser.gof_Parse": {
+      "access": "public",
+      "line": "25",
+      "signature": "(filename string, relative bool, basepath string, extra FieldSet)",
+      "type": "[]Tag, error",
+      "位置": "25"
+    },
+    "parser.gof_getAccess": {
+      "access": "private",
+      "line": "371",
+      "signature": "(name string)",
+      "type": "string",
+      "位置": "371"
+    },
+    "parser.gof_getType": {
+      "access": "private",
+      "line": "330",
+      "signature": "(node ast.Node, star bool)",
+      "type": "string",
+      "位置": "330"
+    },
+    "parser.gof_getTypes": {
+      "access": "private",
+      "line": "290",
+      "signature": "(fields *ast.FieldList, includeNames bool)",
+      "type": "string",
+      "位置": "290"
+    },
+    "parser.gofmt": {
+      "line": "4",
+      "位置": "4"
+    },
+    "parser.gogo/ast": {
+      "line": "5",
+      "位置": "5"
+    },
+    "parser.gogo/parser": {
+      "line": "6",
+      "位置": "6"
+    },
+    "parser.gogo/token": {
+      "line": "7",
+      "位置": "7"
+    },
+    "parser.gom_belongsToReceiver": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "263",
+      "signature": "(types *ast.FieldList)",
+      "type": "string, bool",
+      "位置": "263"
+    },
+    "parser.gom_createTag": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "244",
+      "signature": "(name string, pos token.Pos, tagType TagType)",
+      "type": "Tag",
+      "位置": "244"
+    },
+    "parser.gom_parseDeclarations": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "70",
+      "signature": "(f *ast.File, pkgName string)",
+      "位置": "70"
+    },
+    "parser.gom_parseFunction": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "95",
+      "signature": "(f *ast.FuncDecl, pkgName string)",
+      "位置": "95"
+    },
+    "parser.gom_parseImports": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "59",
+      "signature": "(f *ast.File)",
+      "位置": "59"
+    },
+    "parser.gom_parseInterfaceMethods": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "220",
+      "signature": "(name string, s *ast.InterfaceType)",
+      "位置": "220"
+    },
+    "parser.gom_parsePackage": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "53",
+      "signature": "(f *ast.File)",
+      "type": "string",
+      "位置": "53"
+    },
+    "parser.gom_parseStructFields": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "196",
+      "signature": "(name string, s *ast.StructType)",
+      "位置": "196"
+    },
+    "parser.gom_parseTypeDeclaration": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "137",
+      "signature": "(ts *ast.TypeSpec, pkgName string)",
+      "位置": "137"
+    },
+    "parser.gom_parseValueDeclaration": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "166",
+      "signature": "(v *ast.ValueSpec, pkgName string)",
+      "位置": "166"
+    },
+    "parser.goos": {
+      "line": "8",
+      "位置": "8"
+    },
+    "parser.gopath/filepath": {
+      "line": "9",
+      "位置": "9"
+    },
+    "parser.gostrings": {
+      "line": "10",
+      "位置": "10"
+    },
+    "parser.got_tagParser": {
+      "access": "private",
+      "line": "14",
+      "type": "struct",
+      "位置": "14"
+    },
+    "parser.gow_basepath": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "19",
+      "type": "string",
+      "位置": "19"
+    },
+    "parser.gow_extraSymbols": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "20",
+      "type": "FieldSet",
+      "位置": "20"
+    },
+    "parser.gow_fset": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "15",
+      "type": "*token.FileSet",
+      "位置": "15"
+    },
+    "parser.gow_relative": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "18",
+      "type": "bool",
+      "位置": "18"
+    },
+    "parser.gow_tags": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "16",
+      "type": "[]Tag",
+      "位置": "16"
+    },
+    "parser.gow_types": {
+      "access": "private",
+      "ctype": "tagParser",
+      "line": "17",
+      "type": "[]string",
+      "位置": "17"
+    },
+    "parser_test.go": {
+      "file": "parser_test.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "parser_test.go"
+    },
+    "parser_test.gof_TestParse": {
+      "access": "public",
+      "line": "260",
+      "signature": "(t *testing.T)",
+      "位置": "260"
+    },
+    "parser_test.gof_extractVersionCode": {
+      "access": "private",
+      "line": "317",
+      "signature": "(version string)",
+      "type": "int",
+      "位置": "317"
+    },
+    "parser_test.gof_tag": {
+      "access": "private",
+      "line": "303",
+      "signature": "(n string, l int, t TagType, fields F)",
+      "type": "Tag",
+      "位置": "303"
+    },
+    "parser_test.gofmt": {
+      "line": "4",
+      "位置": "4"
+    },
+    "parser_test.gom_Dump": {
+      "access": "public",
+      "ctype": "TagSlice",
+      "line": "35",
+      "signature": "()",
+      "位置": "35"
+    },
+    "parser_test.gom_Len": {
+      "access": "public",
+      "ctype": "TagSlice",
+      "line": "20",
+      "signature": "()",
+      "type": "int",
+      "位置": "20"
+    },
+    "parser_test.gom_Less": {
+      "access": "public",
+      "ctype": "TagSlice",
+      "line": "25",
+      "signature": "(i, j int)",
+      "type": "bool",
+      "位置": "25"
+    },
+    "parser_test.gom_Swap": {
+      "access": "public",
+      "ctype": "TagSlice",
+      "line": "30",
+      "signature": "(i, j int)",
+      "位置": "30"
+    },
+    "parser_test.gopath/filepath": {
+      "line": "5",
+      "位置": "5"
+    },
+    "parser_test.goregexp": {
+      "line": "6",
+      "位置": "6"
+    },
+    "parser_test.goruntime": {
+      "line": "7",
+      "位置": "7"
+    },
+    "parser_test.gosort": {
+      "line": "8",
+      "位置": "8"
+    },
+    "parser_test.gostrconv": {
+      "line": "9",
+      "位置": "9"
+    },
+    "parser_test.got_F": {
+      "access": "public",
+      "line": "41",
+      "type": "map[TagField]string",
+      "位置": "41"
+    },
+    "parser_test.got_TagSlice": {
+      "access": "public",
+      "line": "17",
+      "type": "[]Tag",
+      "位置": "17"
+    },
+    "parser_test.gotesting": {
+      "line": "10",
+      "位置": "10"
+    },
+    "parser_test.gov_goVersionRegexp": {
+      "access": "private",
+      "line": "13",
+      "位置": "13"
+    },
+    "parser_test.gov_testCases": {
+      "access": "private",
+      "line": "43",
+      "位置": "43"
+    },
+    "path/filepath": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "path/filepath"
+    },
+    "regexp": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "regexp"
+    },
+    "runtime": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "runtime"
+    },
+    "sort": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "sort"
+    },
+    "strconv": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "strconv"
+    },
+    "strings": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "strings"
+    },
+    "t_Attr": {
+      "file": "tag.go",
+      "line": "146",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "Attr"
+    },
+    "t_ErrInvalidFields": {
+      "file": "fields.go",
+      "line": "18",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "ErrInvalidFields"
+    },
+    "t_F": {
+      "file": "parser_test.go",
+      "line": "41",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "F"
+    },
+    "t_FieldSet": {
+      "file": "fields.go",
+      "line": "9",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "FieldSet"
+    },
+    "t_Graph": {
+      "file": "tag.go",
+      "line": "164",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "Graph"
+    },
+    "t_Link": {
+      "file": "tag.go",
+      "line": "156",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "Link"
+    },
+    "t_Node": {
+      "file": "tag.go",
+      "line": "148",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "Node"
+    },
+    "t_Tag": {
+      "file": "tag.go",
+      "line": "12",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "Tag"
+    },
+    "t_TagField": {
+      "file": "tag.go",
+      "line": "21",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "TagField"
+    },
+    "t_TagSlice": {
+      "file": "parser_test.go",
+      "line": "17",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "TagSlice"
+    },
+    "t_TagType": {
+      "file": "tag.go",
+      "line": "36",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "TagType"
+    },
+    "t_tagParser": {
+      "file": "parser.go",
+      "line": "14",
+      "tagName": "类型",
+      "tagType": "t",
+      "tagVal": "tagParser"
+    },
+    "tag.go": {
+      "file": "tag.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "tag.go"
+    },
+    "tag.gobytes": {
+      "line": "4",
+      "位置": "4"
+    },
+    "tag.goc_Access": {
+      "access": "public",
+      "line": "25",
+      "type": "TagField",
+      "位置": "25"
+    },
+    "tag.goc_Constant": {
+      "access": "public",
+      "line": "42",
+      "type": "TagType",
+      "位置": "42"
+    },
+    "tag.goc_Constructor": {
+      "access": "public",
+      "line": "49",
+      "type": "TagType",
+      "位置": "49"
+    },
+    "tag.goc_Embedded": {
+      "access": "public",
+      "line": "47",
+      "type": "TagType",
+      "位置": "47"
+    },
+    "tag.goc_ExtraTags": {
+      "access": "public",
+      "line": "32",
+      "type": "TagField",
+      "位置": "32"
+    },
+    "tag.goc_Field": {
+      "access": "public",
+      "line": "46",
+      "type": "TagType",
+      "位置": "46"
+    },
+    "tag.goc_Function": {
+      "access": "public",
+      "line": "50",
+      "type": "TagType",
+      "位置": "50"
+    },
+    "tag.goc_Import": {
+      "access": "public",
+      "line": "41",
+      "type": "TagType",
+      "位置": "41"
+    },
+    "tag.goc_Interface": {
+      "access": "public",
+      "line": "45",
+      "type": "TagType",
+      "位置": "45"
+    },
+    "tag.goc_InterfaceType": {
+      "access": "public",
+      "line": "30",
+      "type": "TagField",
+      "位置": "30"
+    },
+    "tag.goc_Language": {
+      "access": "public",
+      "line": "31",
+      "type": "TagField",
+      "位置": "31"
+    },
+    "tag.goc_Line": {
+      "access": "public",
+      "line": "29",
+      "type": "TagField",
+      "位置": "29"
+    },
+    "tag.goc_Method": {
+      "access": "public",
+      "line": "48",
+      "type": "TagType",
+      "位置": "48"
+    },
+    "tag.goc_Package": {
+      "access": "public",
+      "line": "40",
+      "type": "TagType",
+      "位置": "40"
+    },
+    "tag.goc_ReceiverType": {
+      "access": "public",
+      "line": "28",
+      "type": "TagField",
+      "位置": "28"
+    },
+    "tag.goc_Signature": {
+      "access": "public",
+      "line": "26",
+      "type": "TagField",
+      "位置": "26"
+    },
+    "tag.goc_Type": {
+      "access": "public",
+      "line": "44",
+      "type": "TagType",
+      "位置": "44"
+    },
+    "tag.goc_TypeField": {
+      "access": "public",
+      "line": "27",
+      "type": "TagField",
+      "位置": "27"
+    },
+    "tag.goc_Variable": {
+      "access": "public",
+      "line": "43",
+      "type": "TagType",
+      "位置": "43"
+    },
+    "tag.gof_NewTag": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "54",
+      "signature": "(name, file string, line int, tagType TagType)",
+      "type": "Tag",
+      "位置": "54"
+    },
+    "tag.gofmt": {
+      "line": "5",
+      "位置": "5"
+    },
+    "tag.gom_Graph": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "171",
+      "signature": "()",
+      "type": "[]Node, Link",
+      "位置": "171"
+    },
+    "tag.gom_String": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "66",
+      "signature": "()",
+      "type": "string",
+      "位置": "66"
+    },
+    "tag.gom_Triple": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "95",
+      "signature": "()",
+      "type": "[][]string",
+      "位置": "95"
+    },
+    "tag.gosort": {
+      "line": "6",
+      "位置": "6"
+    },
+    "tag.gostrconv": {
+      "line": "7",
+      "位置": "7"
+    },
+    "tag.gostrings": {
+      "line": "8",
+      "位置": "8"
+    },
+    "tag.got_Attr": {
+      "access": "public",
+      "line": "146",
+      "type": "map[string]string",
+      "位置": "146"
+    },
+    "tag.got_Graph": {
+      "access": "public",
+      "line": "164",
+      "type": "struct",
+      "位置": "164"
+    },
+    "tag.got_Link": {
+      "access": "public",
+      "line": "156",
+      "type": "struct",
+      "位置": "156"
+    },
+    "tag.got_Node": {
+      "access": "public",
+      "line": "148",
+      "type": "struct",
+      "位置": "148"
+    },
+    "tag.got_Tag": {
+      "access": "public",
+      "line": "12",
+      "type": "struct",
+      "位置": "12"
+    },
+    "tag.got_TagField": {
+      "access": "public",
+      "line": "21",
+      "type": "string",
+      "位置": "21"
+    },
+    "tag.got_TagType": {
+      "access": "public",
+      "line": "36",
+      "type": "string",
+      "位置": "36"
+    },
+    "tag.gow_Address": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "15",
+      "type": "string",
+      "位置": "15"
+    },
+    "tag.gow_Attrs": {
+      "access": "public",
+      "ctype": "Link",
+      "line": "161",
+      "type": "Attr",
+      "位置": "161"
+    },
+    "tag.gow_Class": {
+      "access": "public",
+      "ctype": "Node",
+      "line": "152",
+      "type": "string",
+      "位置": "152"
+    },
+    "tag.gow_Fields": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "17",
+      "type": "map[TagField]string",
+      "位置": "17"
+    },
+    "tag.gow_File": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "14",
+      "type": "string",
+      "位置": "14"
+    },
+    "tag.gow_Group": {
+      "access": "public",
+      "ctype": "Node",
+      "line": "150",
+      "type": "int",
+      "位置": "150"
+    },
+    "tag.gow_Id": {
+      "access": "public",
+      "ctype": "Node",
+      "line": "151",
+      "type": "string",
+      "位置": "151"
+    },
+    "tag.gow_Info": {
+      "access": "public",
+      "ctype": "Graph",
+      "line": "167",
+      "type": "map[string]Attr",
+      "位置": "167"
+    },
+    "tag.gow_Links": {
+      "access": "public",
+      "ctype": "Graph",
+      "line": "166",
+      "type": "[]Link",
+      "位置": "166"
+    },
+    "tag.gow_Name": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "13",
+      "type": "string",
+      "位置": "13"
+    },
+    "tag.gow_Nodes": {
+      "access": "public",
+      "ctype": "Graph",
+      "line": "165",
+      "type": "[]Node",
+      "位置": "165"
+    },
+    "tag.gow_Relation": {
+      "access": "public",
+      "ctype": "Link",
+      "line": "160",
+      "type": "string",
+      "位置": "160"
+    },
+    "tag.gow_Size": {
+      "access": "public",
+      "ctype": "Node",
+      "line": "149",
+      "type": "int",
+      "位置": "149"
+    },
+    "tag.gow_Source": {
+      "access": "public",
+      "ctype": "Link",
+      "line": "157",
+      "type": "string",
+      "位置": "157"
+    },
+    "tag.gow_Target": {
+      "access": "public",
+      "ctype": "Link",
+      "line": "158",
+      "type": "string",
+      "位置": "158"
+    },
+    "tag.gow_Type": {
+      "access": "public",
+      "ctype": "Tag",
+      "line": "16",
+      "type": "TagType",
+      "位置": "16"
+    },
+    "tag.gow_Value": {
+      "access": "public",
+      "ctype": "Link",
+      "line": "159",
+      "type": "int",
+      "位置": "159"
+    },
+    "tag_test.go": {
+      "file": "tag_test.go",
+      "tagName": "文件名",
+      "tagType": "l",
+      "tagVal": "tag_test.go"
+    },
+    "tag_test.gof_TestTagString": {
+      "access": "public",
+      "line": "7",
+      "signature": "(t *testing.T)",
+      "位置": "7"
+    },
+    "tag_test.gotesting": {
+      "line": "4",
+      "位置": "4"
+    },
+    "testing": {
+      "tagName": "包",
+      "tagType": "i",
+      "tagVal": "testing"
+    },
+    "v_extraSymbols": {
+      "file": "main.go",
+      "line": "36",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "extraSymbols"
+    },
+    "v_fields": {
+      "file": "main.go",
+      "line": "35",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "fields"
+    },
+    "v_fieldsPattern": {
+      "file": "fields.go",
+      "line": "27",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "fieldsPattern"
+    },
+    "v_flags": {
+      "file": "main.go",
+      "line": "40",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "flags"
+    },
+    "v_goVersionRegexp": {
+      "file": "parser_test.go",
+      "line": "13",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "goVersionRegexp"
+    },
+    "v_inputFile": {
+      "file": "main.go",
+      "line": "28",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "inputFile"
+    },
+    "v_listLangs": {
+      "file": "main.go",
+      "line": "34",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "listLangs"
+    },
+    "v_outputFile": {
+      "file": "main.go",
+      "line": "29",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "outputFile"
+    },
+    "v_printVersion": {
+      "file": "main.go",
+      "line": "27",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "printVersion"
+    },
+    "v_recurse": {
+      "file": "main.go",
+      "line": "30",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "recurse"
+    },
+    "v_relative": {
+      "file": "main.go",
+      "line": "33",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "relative"
+    },
+    "v_silent": {
+      "file": "main.go",
+      "line": "32",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "silent"
+    },
+    "v_sortOutput": {
+      "file": "main.go",
+      "line": "31",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "sortOutput"
+    },
+    "v_testCases": {
+      "file": "parser_test.go",
+      "line": "43",
+      "tagName": "变量",
+      "tagType": "v",
+      "tagVal": "testCases"
+    },
+    "w_Address": {
+      "file": "tag.go",
+      "line": "15",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Address"
+    },
+    "w_Attrs": {
+      "file": "tag.go",
+      "line": "153",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Attrs"
+    },
+    "w_Class": {
+      "file": "tag.go",
+      "line": "152",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Class"
+    },
+    "w_Fields": {
+      "file": "fields.go",
+      "line": "19",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Fields"
+    },
+    "w_File": {
+      "file": "tag.go",
+      "line": "14",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "File"
+    },
+    "w_Group": {
+      "file": "tag.go",
+      "line": "150",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Group"
+    },
+    "w_Id": {
+      "file": "tag.go",
+      "line": "151",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Id"
+    },
+    "w_Info": {
+      "file": "tag.go",
+      "line": "167",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Info"
+    },
+    "w_Links": {
+      "file": "tag.go",
+      "line": "166",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Links"
+    },
+    "w_Name": {
+      "file": "tag.go",
+      "line": "13",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Name"
+    },
+    "w_Nodes": {
+      "file": "tag.go",
+      "line": "165",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Nodes"
+    },
+    "w_Relation": {
+      "file": "tag.go",
+      "line": "160",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Relation"
+    },
+    "w_Size": {
+      "file": "tag.go",
+      "line": "149",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Size"
+    },
+    "w_Source": {
+      "file": "tag.go",
+      "line": "157",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Source"
+    },
+    "w_Target": {
+      "file": "tag.go",
+      "line": "158",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Target"
+    },
+    "w_Type": {
+      "file": "tag.go",
+      "line": "16",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Type"
+    },
+    "w_Value": {
+      "file": "tag.go",
+      "line": "159",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "Value"
+    },
+    "w_basepath": {
+      "file": "parser.go",
+      "line": "19",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "basepath"
+    },
+    "w_extraSymbols": {
+      "file": "parser.go",
+      "line": "20",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "extraSymbols"
+    },
+    "w_fset": {
+      "file": "parser.go",
+      "line": "15",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "fset"
+    },
+    "w_relative": {
+      "file": "parser.go",
+      "line": "18",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "relative"
+    },
+    "w_tags": {
+      "file": "parser.go",
+      "line": "16",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "tags"
+    },
+    "w_types": {
+      "file": "parser.go",
+      "line": "17",
+      "tagName": "字段",
+      "tagType": "w",
+      "tagVal": "types"
+    }
+  }
+}
